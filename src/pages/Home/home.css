@@ -1,0 +1,22 @@
+.divContainer {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: antiquewhite;
+  justify-content: space-around;
+}
+
+.divUlCon {
+  list-style: none;
+  display: flex;
+  margin-left: 50px;
+  border-radius: 50px;
+  margin-right: 50px;
+  margin-top: 10px;
+  flex-wrap: wrap;
+  background-color: rgb(239, 244, 242);
+}
+
+.productDesign {
+  width: 23%; /* 4 ürün olduğu için her biri 23% genişliğinde olacak */
+  margin: 1%; /* İstediğiniz boşluk değeri */
+}

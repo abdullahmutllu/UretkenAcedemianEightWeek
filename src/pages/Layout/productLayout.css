@@ -1,0 +1,59 @@
+.layoutContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.layoutDiv {
+  flex: 1;
+  padding-right: 16px;
+}
+
+.layoutUl {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.layoutUl li {
+  cursor: pointer;
+  padding: 8px;
+  border: 1px solid #ccc;
+  margin-bottom: 8px;
+  border-radius: 4px;
+}
+
+.test {
+  flex: 2;
+}
+
+/* Stil eklemeleri - Product componenti içindir, stilini düzenleyebilirsiniz */
+.card {
+  border: 1px solid #ddd;
+  padding: 16px;
+  margin-bottom: 16px;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+.imgBox img {
+  width: 100%;
+  height: auto;
+}
+
+.contentBox {
+  text-align: center;
+}
+
+.price {
+  color: #007bff;
+}
+
+.buy {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  cursor: pointer;
+}

@@ -1,0 +1,37 @@
+.navbar {
+  top: 0;
+  background-color: black;
+  height: 65px;
+  display: flex;
+  color: white;
+}
+.start {
+  flex: 1;
+}
+.start h1 {
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.middle {
+  flex: 6;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.divUl {
+  display: flex;
+}
+.navLi {
+  margin-right: 25px;
+}
+.and {
+  flex: 2;
+}
+.and h1 {
+  display: flex;
+  margin-top: 5px;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,51 @@
+.ctgContainer {
+  display: flex;
+}
+
+.layoutContainer {
+  width: 200px;
+  padding: 20px;
+  border-right: 1px solid #ccc;
+}
+
+.layoutUl {
+  list-style-type: none;
+  padding: 0;
+}
+
+.layoutUl li {
+  cursor: pointer;
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.categoryProducts {
+  flex: 1;
+  padding: 20px;
+}
+
+.categoryProducts h2 {
+  color: #333;
+}
+
+.categoryProducts ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.categoryProducts li {
+  width: 25%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.categoryProducts img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+/* Diğer stillendirmeleri buraya ekleyebilirsiniz */
